@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sky Broker | Presentación Corporativa</title>
+    <meta name="description" content="Presentación corporativa de Sky Broker. Relaciones y negocios. Personas asesorando personas en Mar del Plata.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'sky-red': '#E30613',
+                        'sky-black': '#1A1A1B',
+                        'sky-white': '#FFFFFF',
+                        'sky-gray': '#F8F9FA',
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'sans-serif'],
+                        'display': ['Poppins', 'sans-serif'],
+                    },
+                    letterSpacing: {
+                        'widest-xl': '0.3em',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom Styles for extra polish */
+        body {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        .hero-bg {
+            background-image: radial-gradient(circle at center, rgba(255,255,255,0.03) 0%, rgba(26,26,27,1) 100%);
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+        }
+    </style>
+</head>
+<body class="bg-sky-white text-sky-black font-sans selection:bg-sky-red selection:text-sky-white">
+
+    <!-- 1. SECCIÓN HERO -->
+    <header class="w-full bg-sky-black text-sky-white min-h-screen flex flex-col justify-center items-center relative overflow-hidden hero-bg px-6 py-20">
+        <!-- Subtle background grid/pattern could go here -->
+        <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMSIgY3k9IjEiIHI9IjEiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4wNSkiLz48L3N2Zz4=')] opacity-30"></div>
+        
+        <div class="max-w-7xl mx-auto w-full flex flex-col items-center justify-center text-center relative z-10 space-y-8">
+            <img src="./tu-logo.png" alt="Sky Broker" class="w-72 md:w-96 lg:w-[32rem] object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-500">
+            
+            <h2 class="font-display text-xl md:text-3xl text-sky-gray font-light uppercase tracking-widest-xl mt-4">
+                Relaciones y Negocios.
+            </h2>
+            
+            <div class="w-24 h-1 bg-sky-red mx-auto mt-12 mb-12"></div>
+        </div>
+        
+        <p class="text-xs md:text-sm font-light tracking-widest text-gray-400 absolute bottom-10 uppercase z-10 w-full text-center px-6">
+            Presentación Corporativa 2026 | Mar del Plata
+        </p>
+    </header>
+
+    <!-- 2. SECCIÓN IDENTIDAD -->
+    <section class="w-full bg-sky-white py-24 md:py-32 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="mb-16 md:mb-24">
+                <h3 class="font-display text-sm font-bold text-sky-red uppercase tracking-widest mb-4">Nuestra Filosofía</h3>
+                <h2 class="font-display text-4xl md:text-5xl font-semibold mb-8 text-sky-black">Personas asesorando personas.</h2>
+                <p class="text-lg md:text-xl text-gray-600 max-w-3xl leading-relaxed font-light">
+                    En Sky Broker, entendemos que la escala de un gran negocio requiere una gestión de riesgos a la altura. A diferencia de la banca tradicional, operamos como sus <span class="font-medium text-sky-black">auditores de seguridad</span>. No emitimos pólizas; diseñamos estrategias de cobertura dinámicas.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="glass-card p-8 md:p-12 hover:-translate-y-2 transition-all duration-300 border-t-4 border-t-transparent hover:border-t-sky-red">
+                    <i class="fa-solid fa-handshake-angle text-4xl text-sky-black mb-6"></i>
+                    <h4 class="font-display text-xl font-semibold mb-4">Vínculo Real</h4>
+                    <p class="text-gray-500 font-light">Atención personalizada y directa con socios estratégicos, sin intermediarios robóticos ni respuestas genéricas.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="glass-card p-8 md:p-12 hover:-translate-y-2 transition-all duration-300 border-t-4 border-t-transparent hover:border-t-sky-red">
+                    <i class="fa-solid fa-magnifying-glass-chart text-4xl text-sky-black mb-6"></i>
+                    <h4 class="font-display text-xl font-semibold mb-4">Auditoría Continua</h4>
+                    <p class="text-gray-500 font-light">Revisión constante de sus activos y riesgos para garantizar que su cobertura evolucione al ritmo de su empresa.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="glass-card p-8 md:p-12 hover:-translate-y-2 transition-all duration-300 border-t-4 border-t-transparent hover:border-t-sky-red">
+                    <i class="fa-solid fa-bolt text-4xl text-sky-black mb-6"></i>
+                    <h4 class="font-display text-xl font-semibold mb-4">Agilidad Digital</h4>
+                    <p class="text-gray-500 font-light">Combinamos el trato humano con herramientas tecnológicas de primer nivel para resoluciones eficientes y rápidas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. SECCIÓN ECOSISTEMA / ALIADOS -->
+    <section class="w-full bg-sky-gray py-24 md:py-32 px-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <h3 class="font-display text-sm font-bold text-sky-red uppercase tracking-widest mb-4">Respaldo Institucional</h3>
+            <h2 class="font-display text-3xl md:text-4xl font-semibold mb-6 text-sky-black">Operamos con el ecosistema de aseguradoras más robusto de la República Argentina.</h2>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mt-16">
+                <!-- Brands -->
+                <div class="bg-sky-white h-24 flex items-center justify-center rounded-sm border border-gray-100 hover:shadow-lg hover:scale-105 transition-all duration-300">
+                    <span class="font-display font-bold text-gray-800 text-lg md:text-xl">SANCOR SEGUROS</span>
+                </div>
+                <div class="bg-sky-white h-24 flex items-center justify-center rounded-sm border border-gray-100 hover:shadow-lg hover:scale-105 transition-all duration-300">
+                    <span class="font-display font-bold text-gray-800 text-lg md:text-xl">OMINT</span>
+                </div>
+                <div class="bg-sky-white h-24 flex items-center justify-center rounded-sm border border-gray-100 hover:shadow-lg hover:scale-105 transition-all duration-300">
+                    <span class="font-display font-bold text-gray-800 text-lg md:text-xl text-center leading-tight">PREVENCIÓN<br>SALUD</span>
+                </div>
+                <div class="bg-sky-white h-24 flex items-center justify-center rounded-sm border border-gray-100 hover:shadow-lg hover:scale-105 transition-all duration-300">
+                    <span class="font-display font-bold text-gray-800 text-lg md:text-xl">LA CAJA</span>
+                </div>
+                <div class="bg-sky-white h-24 flex items-center justify-center rounded-sm border border-gray-100 hover:shadow-lg hover:scale-105 transition-all duration-300">
+                    <span class="font-display font-bold text-gray-800 text-lg md:text-xl text-center leading-tight">SAN<br>CRISTÓBAL</span>
+                </div>
+                <div class="bg-sky-white h-24 flex items-center justify-center rounded-sm border border-gray-100 hover:shadow-lg hover:scale-105 transition-all duration-300">
+                    <span class="font-display font-bold text-gray-800 text-lg md:text-xl text-center leading-tight">COOPERACIÓN<br>SEGUROS</span>
+                </div>
+                <div class="bg-sky-white h-24 flex items-center justify-center rounded-sm border border-gray-100 hover:shadow-lg hover:scale-105 transition-all duration-300">
+                    <span class="font-display font-bold text-gray-800 text-lg md:text-xl text-center leading-tight">GALICIA<br>SEGUROS</span>
+                </div>
+                <div class="bg-sky-white h-24 flex items-center justify-center rounded-sm border border-gray-100 hover:shadow-lg hover:scale-105 transition-all duration-300">
+                    <span class="font-display font-bold text-gray-800 text-lg md:text-xl text-center leading-tight">MERCANTIL<br>ANDINA</span>
+                </div>
+                <div class="bg-sky-white h-24 flex items-center justify-center rounded-sm border border-gray-100 hover:shadow-lg hover:scale-105 transition-all duration-300">
+                    <span class="font-display font-bold text-gray-800 text-lg md:text-xl text-center leading-tight">SEGUROS<br>RIVADAVIA</span>
+                </div>
+                <div class="bg-sky-white h-24 flex items-center justify-center rounded-sm border border-gray-100 hover:shadow-lg hover:scale-105 transition-all duration-300">
+                    <span class="font-display font-bold text-gray-800 text-lg md:text-xl text-center leading-tight">HOLANDO<br>ART</span>
+                </div>
+                <div class="bg-sky-white h-24 flex items-center justify-center rounded-sm border border-gray-100 hover:shadow-lg hover:scale-105 transition-all duration-300">
+                    <span class="font-display font-bold text-gray-800 text-lg md:text-xl text-center leading-tight">BERKLEY<br>ART</span>
+                </div>
+                <div class="bg-sky-white h-24 flex items-center justify-center rounded-sm border border-gray-100 hover:shadow-lg hover:scale-105 transition-all duration-300">
+                    <span class="font-display font-bold text-gray-800 text-lg md:text-xl text-center leading-tight">ANDINA<br>ART</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. SECCIÓN UNIDADES DE NEGOCIO -->
+    <section class="w-full bg-sky-white py-24 md:py-32 px-6 overflow-hidden">
+        <div class="max-w-7xl mx-auto">
+            <h3 class="font-display text-sm font-bold text-sky-red uppercase tracking-widest mb-16 text-center">Unidades de Negocio</h3>
+            
+            <div class="space-y-16 md:space-y-24">
+                
+                <!-- Unidad 1 -->
+                <div class="flex flex-col md:flex-row items-center gap-8 md:gap-16 hover:scale-[1.02] transition-transform duration-500">
+                    <div class="w-full md:w-1/2">
+                        <div class="h-64 bg-sky-gray flex items-center justify-center relative group">
+                             <div class="absolute inset-0 bg-sky-black opacity-5 group-hover:opacity-0 transition-opacity"></div>
+                             <i class="fa-solid fa-notes-medical text-6xl text-sky-red opacity-80 group-hover:scale-110 transition-transform duration-500"></i>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <h4 class="font-display text-3xl font-semibold mb-4">Salud y Bienestar Corporativo</h4>
+                        <p class="text-gray-600 font-light mb-6 text-lg">Protección integral para el capital humano de su empresa, garantizando tranquilidad y respaldo ante cualquier eventualidad médica.</p>
+                        <div class="flex flex-wrap gap-3">
+                            <span class="px-4 py-2 border border-gray-200 text-xs font-semibold tracking-wider uppercase text-gray-500 bg-sky-white">OMINT</span>
+                            <span class="px-4 py-2 border border-gray-200 text-xs font-semibold tracking-wider uppercase text-gray-500 bg-sky-white">Prevención Salud</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Unidad 2 -->
+                <div class="flex flex-col md:flex-row-reverse items-center gap-8 md:gap-16 hover:scale-[1.02] transition-transform duration-500">
+                    <div class="w-full md:w-1/2">
+                        <div class="h-64 bg-sky-gray flex items-center justify-center relative group">
+                            <div class="absolute inset-0 bg-sky-black opacity-5 group-hover:opacity-0 transition-opacity"></div>
+                            <i class="fa-solid fa-truck-fast text-6xl text-sky-red opacity-80 group-hover:scale-110 transition-transform duration-500"></i>
+                       </div>
+                    </div>
+                    <div class="w-full md:w-1/2 text-left md:text-right">
+                        <h4 class="font-display text-3xl font-semibold mb-4">Movilidad y Logística</h4>
+                        <p class="text-gray-600 font-light mb-6 text-lg">Aseguramos flotas corporativas y operaciones logísticas, minimizando tiempos de inactividad y protegiendo el movimiento de su negocio.</p>
+                        <div class="flex flex-wrap gap-3 justify-start md:justify-end">
+                            <span class="px-4 py-2 border border-gray-200 text-xs font-semibold tracking-wider uppercase text-gray-500 bg-sky-white">La Caja</span>
+                            <span class="px-4 py-2 border border-gray-200 text-xs font-semibold tracking-wider uppercase text-gray-500 bg-sky-white">Cooperación Seguros</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Unidad 3 -->
+                <div class="flex flex-col md:flex-row items-center gap-8 md:gap-16 hover:scale-[1.02] transition-transform duration-500">
+                    <div class="w-full md:w-1/2">
+                        <div class="h-64 bg-sky-gray flex items-center justify-center relative group">
+                            <div class="absolute inset-0 bg-sky-black opacity-5 group-hover:opacity-0 transition-opacity"></div>
+                            <i class="fa-solid fa-wheat-awn text-6xl text-sky-red opacity-80 group-hover:scale-110 transition-transform duration-500"></i>
+                       </div>
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <h4 class="font-display text-3xl font-semibold mb-4">Patrimonio y Agro</h4>
+                        <p class="text-gray-600 font-light mb-6 text-lg">Coberturas diseñadas para resguardar grandes instalaciones, maquinaria agrícola y activos fundamentales para la producción.</p>
+                        <div class="flex flex-wrap gap-3">
+                            <span class="px-4 py-2 border border-gray-200 text-xs font-semibold tracking-wider uppercase text-gray-500 bg-sky-white">Mercantil Andina</span>
+                            <span class="px-4 py-2 border border-gray-200 text-xs font-semibold tracking-wider uppercase text-gray-500 bg-sky-white">San Cristóbal</span>
+                            <span class="px-4 py-2 border border-gray-200 text-xs font-semibold tracking-wider uppercase text-gray-500 bg-sky-white">Galicia Seguros</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. SECCIÓN CLIENTES -->
+    <section class="w-full bg-sky-gray py-24 md:py-32 px-6 border-y border-gray-200">
+        <div class="max-w-7xl mx-auto text-center">
+            <h3 class="font-display text-sm font-bold text-sky-red uppercase tracking-widest mb-4">Casos de Éxito</h3>
+            <h2 class="font-display text-3xl md:text-4xl font-semibold mb-16 text-sky-black">Empresas que confían en nosotros.</h2>
+            
+            <div class="flex flex-wrap justify-center items-center gap-10 md:gap-20">
+                <img src="./Matafuegoslogo.png" alt="Matafuegos" class="h-12 md:h-16 object-contain grayscale opacity-60 mix-blend-multiply hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+                <img src="./Maurosergiologo.png" alt="Mauro Sergio" class="h-20 md:h-28 scale-125 object-contain grayscale opacity-60 mix-blend-multiply hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+                <img src="./canicobalogo.jpg" alt="Canicoba" class="h-16 md:h-20 scale-110 object-contain grayscale opacity-60 mix-blend-multiply hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+                <img src="./huntervillelogo.png" alt="Hunterville" class="h-12 md:h-16 object-contain grayscale opacity-60 mix-blend-multiply hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+                <img src="./kolmenor%20logo.png" alt="Kolmenor" class="h-8 md:h-10 object-contain grayscale opacity-60 mix-blend-multiply hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+                <img src="./promofiestalogo.png" alt="Promo Fiesta" class="h-12 md:h-16 object-contain grayscale opacity-60 mix-blend-multiply hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+                <img src="./stonecontrologo.png" alt="Stone Control" class="h-16 md:h-20 object-contain grayscale opacity-60 mix-blend-multiply hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+                <img src="./tecnomaslogo.png" alt="Tecno Mas" class="h-12 md:h-16 object-contain grayscale opacity-60 mix-blend-multiply hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+                <img src="./vinmusiclogo.png" alt="Vin Music" class="h-16 md:h-20 scale-110 object-contain grayscale opacity-60 mix-blend-multiply hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. SECCIÓN TABLA DE VALOR -->
+    <section class="w-full bg-sky-black py-24 md:py-32 px-6 text-sky-white">
+        <div class="max-w-5xl mx-auto">
+            <h3 class="font-display text-sm font-bold text-sky-red uppercase tracking-widest mb-12 text-center">Propuesta de Valor</h3>
+            
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="border-b border-gray-800">
+                            <th class="py-6 pr-6 w-1/3"></th>
+                            <th class="py-6 px-6 font-display font-normal text-xl text-gray-500 w-1/3">Bancos / Apps</th>
+                            <th class="py-6 px-6 font-display font-semibold text-2xl text-sky-white border-b-2 border-sky-red w-1/3">Sky Broker</th>
+                        </tr>
+                    </thead>
+                    <tbody class="font-light text-lg">
+                        <tr class="border-b border-gray-800 hover:bg-white/5 transition-colors">
+                            <td class="py-8 pr-6 font-medium">Atención</td>
+                            <td class="py-8 px-6 text-gray-500">Bots y Call Centers</td>
+                            <td class="py-8 px-6 font-medium text-sky-white flex items-center gap-3">
+                                <i class="fa-solid fa-check text-sky-red"></i> Asesor Personal
+                            </td>
+                        </tr>
+                        <tr class="border-b border-gray-800 hover:bg-white/5 transition-colors">
+                            <td class="py-8 pr-6 font-medium">Siniestros</td>
+                            <td class="py-8 px-6 text-gray-500">Autogestión del Cliente</td>
+                            <td class="py-8 px-6 font-medium text-sky-white flex items-center gap-3">
+                                <i class="fa-solid fa-check text-sky-red"></i> Gestión Humana y Seguimiento
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-white/5 transition-colors">
+                            <td class="py-8 pr-6 font-medium">Actualización</td>
+                            <td class="py-8 px-6 text-gray-500">Renovación Automática</td>
+                            <td class="py-8 px-6 font-medium text-sky-white flex items-center gap-3">
+                                <i class="fa-solid fa-check text-sky-red"></i> Auditoría Cuatrimestral
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. FOOTER / CONTACTO -->
+    <footer class="w-full bg-sky-white border-t-4 border-sky-red pt-24 pb-12 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col items-center text-center">
+            
+            <div class="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10 mb-10">
+                <img src="./logo-2.png" alt="Sky Broker" class="w-16 md:w-20 object-contain hover:scale-110 transition-transform duration-300">
+                <h2 class="font-display text-5xl md:text-7xl font-bold text-sky-black tracking-tight">Hablemos de negocios.</h2>
+            </div>
+            
+            <div class="flex flex-col md:flex-row flex-wrap items-center justify-center gap-8 md:gap-12 mb-12">
+                <a href="https://skylandingpage.netlify.app/" target="_blank" rel="noopener noreferrer" class="group flex items-center gap-3 font-display text-xl md:text-2xl text-gray-500 hover:text-sky-red transition-colors">
+                    <i class="fa-solid fa-globe text-sky-black group-hover:text-sky-red text-3xl md:text-4xl transition-colors"></i> 
+                    <span>Sitio Web Oficial</span>
+                </a>
+
+                <a href="https://instagram.com/skybrokerarg" target="_blank" rel="noopener noreferrer" class="group flex items-center gap-3 font-display text-xl md:text-2xl text-gray-500 hover:text-sky-red transition-colors">
+                    <i class="fa-brands fa-instagram text-sky-black group-hover:text-sky-red text-3xl md:text-4xl transition-colors"></i> 
+                    <span>@Skybrokerarg</span>
+                </a>
+                
+                <a href="mailto:comercial@skybrokerseguros.com" class="group flex items-center gap-3 font-display text-xl md:text-2xl text-gray-500 hover:text-sky-red transition-colors">
+                    <i class="fa-regular fa-envelope text-sky-black group-hover:text-sky-red text-3xl md:text-4xl transition-colors"></i> 
+                    <span>comercial@skybrokerseguros.com</span>
+                </a>
+            </div>
+            
+            <p class="text-gray-500 font-light tracking-widest uppercase text-sm mt-12">
+                Mar del Plata, Provincia de Buenos Aires.
+            </p>
+            <p class="text-gray-400 text-xs mt-4">
+                &copy; 2026 Sky Broker. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
